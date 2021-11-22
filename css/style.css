@@ -1,7 +1,7 @@
-.colored-box {
-    height: 50px;
-    border: 1px solid #fff;
-    background-color: #006eff;
+.row {
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
 }
 
 .nested-container {
@@ -12,6 +12,13 @@
 
 .nested-container .row {
     height: 100%;
+    line-height: 34px;
+}
+
+.colored-box {
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: #006eff;
 }
 
 .colored-box-b {
@@ -19,3 +26,6 @@
     background-color: #00e552;
     border: 1px solid #006eff;
 }
+
+
+
