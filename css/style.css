@@ -1,0 +1,21 @@
+.colored-box {
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: #006eff;
+}
+
+.nested-container {
+    margin: 0 auto;
+    padding: 7px;
+    height: 100%;
+}
+
+.nested-container .row {
+    height: 100%;
+}
+
+.colored-box-b {
+    height: 100%;
+    background-color: #00e552;
+    border: 1px solid #006eff;
+}
