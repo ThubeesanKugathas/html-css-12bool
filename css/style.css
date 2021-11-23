@@ -1,24 +1,17 @@
 .row {
     color: #fff;
-    text-align: center;
-    line-height: 50px;
-}
-
-.nested-container {
-    margin: 0 auto;
-    padding: 7px;
-    height: 100%;
-}
-
-.nested-container .row {
-    height: 100%;
-    line-height: 34px;
+    
 }
 
 .colored-box {
     height: 50px;
     border: 1px solid #fff;
     background-color: #006eff;
+    padding: 7px;
+}
+
+.colored-box > .row {
+    height: 100%;
 }
 
 .colored-box-b {
@@ -27,5 +20,9 @@
     border: 1px solid #006eff;
 }
 
-
+.text-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
